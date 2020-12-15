@@ -17,6 +17,6 @@ $ docker build --tag repo:8083/corp-dind .
 ### Run dind (docker in docker) base container alone
 $ docker run --privileged -d --name some-docker docker:dind
 $ docker ps -a
+
 login to the container
 $ docker container exec -it a90c45395c1f /bin/sh
-
