@@ -1,0 +1,3 @@
+{
+    "insecure-registries" : [ "repo:8084","repo.corp.porter.com:8084","repo:8083","repo.corp.porter.com:8083" ]
+}

@@ -1,0 +1,19 @@
+{
+	"auths": {
+		"repo.corp.porter.com:8083": {
+			"auth": "YWRtaW46V2IwdWFyMDAx"
+		},
+		"repo.corp.porter.com:8084": {
+			"auth": "c3BvcnRlcjpXYjB1YXIwMDE="
+		},
+		"repo:8083": {
+			"auth": "YWRtaW46V2IwdWFyMDAx"
+		},
+		"repo:8084": {
+			"auth": "YWRtaW46V2IwdWFyMDAx"
+		}
+	},
+	"HttpHeaders": {
+		"User-Agent": "Docker-Client/19.03.8 (linux)"
+	}
+}
