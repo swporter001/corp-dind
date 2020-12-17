@@ -1,6 +1,6 @@
-FROM docker:dind
+FROM docker:18.05-dind
 LABEL corp.maintainer="swporter001"
-LABEL corp.image="Corp dind"
+LABEL corp.image="CORP-dind"
 
 ENV container=corp-dind
 
