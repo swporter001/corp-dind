@@ -20,3 +20,11 @@ $ docker ps -a
 
 login to the container
 $ docker container exec -it a90c45395c1f /bin/sh
+   From within the container, test nexus repo connectivity
+   # docker ps
+   # docker pull repo:8083/corp-ubuntu
+
+exit the docker exec session
+
+### Push the new container image to the repo 
+docker push repo:8083/corp-dind
